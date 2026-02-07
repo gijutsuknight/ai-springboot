@@ -68,7 +68,7 @@ mvn clean package
 
 The runnable JAR is produced at:
 
-`target/ai-springboot-0.0.1-SNAPSHOT.jar`
+`target/ai-springboot-0.0.1.jar`
 
 ## Deployment
 
@@ -78,14 +78,14 @@ The runnable JAR is produced at:
    ```
 2. Run the JAR:
    ```bash
-   java -jar target/ai-springboot-0.0.1-SNAPSHOT.jar
+   java -jar target/ai-springboot-0.0.1.jar
    ```
 
 The app listens on port 8080 and uses context path `/ai-springboot` by default.
 
 ### Overriding for different environments
 
-- **Port:** `SERVER_PORT=9090 java -jar target/ai-springboot-0.0.1-SNAPSHOT.jar`
-- **Context path:** `SERVER_SERVLET_CONTEXT_PATH=/myapp java -jar target/ai-springboot-0.0.1-SNAPSHOT.jar`
+- **Port:** `SERVER_PORT=9090 java -jar target/ai-springboot-0.0.1.jar`
+- **Context path:** `SERVER_SERVLET_CONTEXT_PATH=/myapp java -jar target/ai-springboot-0.0.1.jar`
 
 You can also set these in `application.properties` or via environment variables (e.g. `SERVER_PORT`, `SERVER_SERVLET_CONTEXT_PATH`).

@@ -13,7 +13,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>ai-springboot</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>ai-springboot</name>
     <description>Spring Boot application with context path /ai-springboot</description>
 
