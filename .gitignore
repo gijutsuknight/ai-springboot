@@ -40,6 +40,9 @@ ehthumbs.db
 *.swp
 *~
 
+# Uploaded files
+uploads/
+
 # Spring Boot
 application-local.properties
 application-local.yml
